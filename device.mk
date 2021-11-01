@@ -134,7 +134,7 @@ endif
 #    XiaomiParts
 
 # Dex
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+#PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
 # Display
 PRODUCT_PACKAGES += \
