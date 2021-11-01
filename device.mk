@@ -236,7 +236,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.gnss@2.1.vendor \
     android.hardware.radio.deprecated@1.0.vendor
-    
+
 # Insmod files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
@@ -366,7 +366,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-arrow
+    $(LOCAL_PATH)/overlay-elixir
 
 # Power
 PRODUCT_PACKAGES += \
