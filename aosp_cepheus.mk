@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/cepheus/device.mk)
 
 # Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
 
 IS_PHONE := true
 CUSTOM_BUILD_TYPE := OFFICIAL
