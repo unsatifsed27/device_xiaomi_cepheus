@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/cepheus/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 IS_PHONE := true
-CUSTOM_BUILD_TYPE=OFFICIAL
+CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false

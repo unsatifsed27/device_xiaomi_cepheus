@@ -105,5 +105,9 @@ wifi.interface=wlan0
 persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Elixir Stuff
+org.elixir.device.name=Xiaomi Mi 9
+ro.elixir.device.name=Xiaomi Mi 9
+ro.elixir.device=cepheus
 ro.elixir.maintainer=Mehdi
-org.elixir.device=Cepheus
+ro.elixir.maintainer.username=freesoul00
+ro.elixir.group.url=t.me/ppui_mi9
